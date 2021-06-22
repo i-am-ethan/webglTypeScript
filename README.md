@@ -1,0 +1,2 @@
+# webglTypeScript
+webGL2をTypeScriptでpacticeするリポジトリ
