@@ -1,0 +1,27 @@
+{
+  "name": "webgl2",
+  "version": "0.0.1",
+  "description": "An Educational WebGL library",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc --project . --module es2015 --outDir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server ./ -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-am-ethan/webglTypeScript.git"
+  },
+  "author": "ethan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i-am-ethan/webglTypeScript/issues"
+  },
+  "homepage": "https://github.com/i-am-ethan/webglTypeScript#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^3.6.2"
+  }
+}
